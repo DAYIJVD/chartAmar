@@ -1,0 +1,141 @@
+/* استایل دهی کلی به صفحه */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+h1 {
+  color: #3e8e41;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* استایل دهی فرم */
+label {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 10px;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+input:focus {
+  border-color: #3e8e41;
+  box-shadow: 0 0 10px rgba(62, 142, 65, 0.5);
+}
+
+/* استایل‌دهی به دکمه‌ها */
+button {
+  background-color: #3e8e41;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 20px;
+  margin-top: 20px;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #2e6f31;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+button:active {
+  background-color: #255c28;
+  transform: translateY(2px);
+}
+
+/* استایل دهی به فیلدهای ورودی انتخابی */
+select {
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+  background-color: #fff;
+  box-sizing: border-box;
+  margin-top: 10px;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+select:focus {
+  border-color: #3e8e41;
+  box-shadow: 0 0 10px rgba(62, 142, 65, 0.5);
+}
+
+/* استایل‌دهی به بخش نمودار */
+.chart-container {
+  margin-top: 30px;
+  width: 80%;
+  max-width: 900px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.chart-container canvas {
+  border-radius: 12px;
+}
+
+/* استایل دهی به بخش‌های انتخاب توزیع */
+.selection-container {
+  width: 100%;
+  max-width: 500px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* فاصله از بالا برای شروع */
+div {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* استایل‌دهی به بخش آمار */
+.statistics {
+  margin-top: 20px;
+  background-color: #e8f7e7;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.statistics h2 {
+  color: #2c6e4f;
+  font-size: 1.5rem;
+}
+
+.statistics p {
+  color: #555;
+  font-size: 1.2rem;
+}
